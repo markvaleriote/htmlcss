@@ -1,1 +1,101 @@
 /* css */
+
+body{
+    margin:0px;
+    padding:0px;
+    background-color:black;
+}
+
+#page {
+    padding:40px;
+}
+
+#header {
+    background-color:gray;  /* changes background color */
+    padding:0px;
+    color:white;
+    
+}
+
+#header h1{
+    padding:20px; 
+    margin:0px;
+    font-family:verdana;
+    font-size:60pt;
+}
+
+/*navigation*/
+#nav, #nav a {
+    background-color:#ccc;   /* this changes the background color to #ccc */
+    padding:10px;
+    
+}
+
+#nav a {
+    margin:0px; 
+    color:black;  
+    font-family:arial;
+    text-decoration:none;  /* gets rid of underline */
+}
+
+#nav a:hover {
+    background-color:#aaaaff;  /* changes background color to #aaaaff*/
+    color:white;  
+    transition: background-color 2s;  /* when you hover the mouse over the
+                                           link, it does something*/
+}
+
+#content {
+    padding:20px 40px;
+    background-color:#eee; /*sets background color*/
+    margin:0px;
+}
+
+#content h2, #content h3 {
+    font-family:arial;
+}
+
+#footer {
+    background-color:black;
+    color:white;
+    margin:0px;
+    padding:20px;
+    
+}
+
+.tom {
+    border-width:10px;
+    border-style:solid;
+    border-color:pink;
+    background-color:pink;
+    padding:20px;
+    border-radius:20px 20px 20px 20px;
+}
+
+#page {
+    
+}
+
+.spotlight {
+    background-color:pink;
+    padding:20px;
+}
+
+#footer a{
+    text-decoration:none;
+    color:white;
+    
+}
+/*end navigation*/
+/*
+#header{
+    background-color:gray;
+    width:400px;
+    padding:20px;
+}
+#header:hover{
+    background-color:pink;
+    transition: background-color 2s;
+    
+}
+*/
